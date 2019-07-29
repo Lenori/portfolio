@@ -53,7 +53,7 @@ a, a:visited, a:hover {
 
 .animated-info {
 
-  display: none;
+  visibility: hidden;
   position: relative;
   z-index: 1000;
   opacity: 0;
@@ -66,6 +66,6 @@ a, a:visited, a:hover {
 }
 
 .is-visible {
-  display: block;
+  visibility: visible;
   opacity: 1;
 }

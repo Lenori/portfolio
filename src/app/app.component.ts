@@ -22,13 +22,14 @@ export class AppComponent implements OnInit {
 
   mouseWheelDownFunc() {
     document.getElementById('container').scrollBy(1900, 0);
+    this.hideInfos(1);
     if (this.animatedId !== this.sections) { this.animatedId++; }
   }
 
   showInfos(id) {
 
     const elem = document.getElementById('container-0' + id);
-    window.setTimeout(() => { elem.classList.toggle('is-visible'); }, 500);
+    window.setTimeout(() => { elem.classList.toggle('is-visible'); }, 200);
 
   }
 
