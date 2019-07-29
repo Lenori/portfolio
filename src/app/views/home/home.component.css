@@ -1,0 +1,39 @@
+.home-info {
+
+  position: relative;
+
+}
+
+.home-info h1 {
+
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  font-size: 90px;
+  margin: 4%;
+  width: 30%;
+  height: 100vh;
+  white-space: initial;
+  float: left;
+
+}
+
+.home-info h1 > span {
+
+  font-weight: 800;
+  display: block;
+
+}
+
+.home-info p {
+
+  margin: 4%;
+  float: left;
+  width: 20%;
+  white-space: initial;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 100;
+
+}
