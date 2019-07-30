@@ -16,7 +16,7 @@ export class ContatoComponent implements OnInit {
     {id: 1, img: 'fab fa-behance', link: 'http://behance.net/Lenori', titulo: 'Behance'},
     {id: 2, img: 'fas fa-at', link: 'mailto:leolenori@gmail.com', titulo: 'E-mail'},
     {id: 3, img: 'fab fa-instagram', link: 'http://www.instagram.com/leolenori', titulo: 'Instagram'},
-    {id: 4, img: 'far fa-file-pdf', link: './assets/cv-leo-lenori-web.pdf', titulo: 'Currículo'}
+    {id: 4, img: 'far fa-file-pdf', link: 'assets/cv-leo-lenori-web.pdf', titulo: 'Currículo'}
 
   ];
 
