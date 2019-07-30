@@ -15,15 +15,16 @@ export class AppComponent implements OnInit {
 
   mouseWheelUpFunc() {
     document.getElementById('container').scrollBy(-1900, 0);
-    this.hideInfos(1);
+    this.hideInfos(this.animatedId);
     if (this.animatedId !== 1) { this.animatedId--; }
-    this.showInfos(1);
+    this.showInfos(this.animatedId);
   }
 
   mouseWheelDownFunc() {
     document.getElementById('container').scrollBy(1900, 0);
-    this.hideInfos(1);
+    this.hideInfos(this.animatedId);
     if (this.animatedId !== this.sections) { this.animatedId++; }
+    this.showInfos(this.animatedId);
   }
 
   showInfos(id) {

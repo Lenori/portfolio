@@ -1,0 +1,22 @@
+<div class="jobs-info animated-info" id="container-04">
+
+  <h1>{{titulo}} <span>{{destaque}}</span></h1>
+
+  <ul>
+
+    <li *ngFor="let item of itens">
+
+      <img src="../../../assets/jobs/job-0{{item.id}}.jpg" alt="leo-lenori-{{item.titulo}}}" />
+
+      <h4>{{item.titulo}}</h4>
+      <span>{{item.desc}}</span>
+
+      <a target="_blank" href="{{item.link}}"><button>Saiba mais</button></a>
+
+    </li>
+
+  </ul>
+
+  <a target="_blank" href="http://{{vejaMais}}"><p>Veja mais em {{vejaMais}}.</p></a>
+
+</div>

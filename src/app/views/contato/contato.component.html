@@ -1,0 +1,13 @@
+<div class="contato-info animated-info" id="container-06">
+
+  <h1>{{titulo}} <span>{{destaque}}</span></h1>
+
+  <p>{{text}}</p>
+
+  <ul>
+
+    <a *ngFor="let item of itens" target="_blank" href="{{item.link}}"><li><i class="{{item.img}}"></i>{{item.titulo}}</li></a>
+
+  </ul>
+
+</div>

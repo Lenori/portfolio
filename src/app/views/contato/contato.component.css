@@ -1,0 +1,65 @@
+.contato-info {
+
+  position: relative;
+
+}
+
+.contato-info h1 {
+
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  font-size: 90px;
+  margin: 4%;
+  width: 30%;
+  height: 100vh;
+  white-space: initial;
+  float: left;
+
+}
+
+.contato-info h1 > span {
+
+  font-weight: 800;
+  display: block;
+
+}
+
+.contato-info p {
+
+  margin: 4%;
+  float: left;
+  width: 20%;
+  white-space: initial;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 100;
+
+}
+
+.contato-info ul {
+
+  list-style-type: none;
+  float: left;
+  width: 20%;
+  text-align: right;
+  margin: 4%;
+
+}
+
+.contato-info li {
+
+  display: block;
+  margin-bottom: 25px;
+  font-size: 25px;
+  color: white;
+
+}
+
+.contato-info li > i {
+
+  font-size: 40px;
+  padding-right: 25px;
+
+}

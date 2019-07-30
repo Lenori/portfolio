@@ -1,0 +1,65 @@
+.edu-info {
+
+  position: relative;
+
+}
+
+.edu-info h1 {
+
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #1c7c8c;
+  font-size: 90px;
+  margin: 4%;
+  width: 31%;
+  height: 100vh;
+  white-space: initial;
+  float: left;
+
+}
+
+.edu-info h1 > span {
+
+  font-weight: 800;
+  display: block;
+
+}
+
+.edu-info p {
+
+  margin: 4%;
+  float: left;
+  width: 20%;
+  white-space: initial;
+  color: #1c7c8c;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.edu-info ul {
+
+  list-style-type: none;
+  color: #1c7c8c;
+  border-left: 1px solid #1c7c8c;
+  float: left;
+  margin-top: 4%;
+
+}
+
+.edu-info li {
+
+  font-weight: 800;
+  margin-bottom: 30px;
+
+}
+
+.edu-info li > span {
+
+  font-weight: 400;
+  display: block;
+  margin-left: 20px;
+  font-style: italic;
+
+}

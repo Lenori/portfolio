@@ -1,0 +1,15 @@
+<div class="prizes-info animated-info" id="container-05">
+
+  <h1>{{titulo}} <span>{{destaque}}</span></h1>
+
+  <p>{{text}}</p>
+
+  <div class="premios">
+
+    <img src="../../../assets/colunistas.png" alt="premio-colunistas">
+
+    <p *ngFor="let item of itens">{{item.premio}}<span>{{item.obs}}</span></p>
+
+  </div>
+
+</div>

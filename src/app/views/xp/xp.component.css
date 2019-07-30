@@ -1,0 +1,85 @@
+.xp-info {
+
+  position: relative;
+
+}
+
+.xp-info h1 {
+
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #e63a70;
+  font-size: 90px;
+  margin: 4%;
+  width: 100%;
+  white-space: initial;
+  float: left;
+
+}
+
+.xp-info h1 > span {
+
+  font-weight: 800;
+  display: block;
+
+}
+
+.xp-info p {
+
+  margin: 4%;
+  float: left;
+  width: 20%;
+  white-space: initial;
+  color: #e63a70;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.xp-info ul {
+
+  list-style-type: none;
+  color: #e63a70;
+  float: left;
+  margin-top: 4%;
+  width: 70%;
+  padding: 0;
+
+}
+
+.xp-info li {
+
+  margin: 0 10px 10px 0;
+  background-color: #ce5e81;
+  padding: 20px;
+  color: #ffffff;
+  width: 25%;
+  float: left;
+
+}
+
+.xp-info li > h4 {
+
+  font-weight: 800;
+  margin: 0;
+
+}
+
+.xp-info li > span {
+
+  font-weight: 400;
+  display: block;
+  margin-left: 20px;
+  font-style: italic;
+
+}
+
+.xp-info li > p {
+
+  margin: 0;
+  float: none;
+  width: 50%;
+  display: none;
+
+}

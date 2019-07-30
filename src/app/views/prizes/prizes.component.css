@@ -1,0 +1,70 @@
+.prizes-info {
+
+  position: relative;
+
+}
+
+.prizes-info h1 {
+
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  font-size: 90px;
+  margin: 4%;
+  width: 31%;
+  white-space: initial;
+  float: left;
+
+}
+
+.prizes-info h1 > span {
+
+  font-weight: 800;
+  display: block;
+
+}
+
+.prizes-info p {
+
+  margin: 4%;
+  float: left;
+  width: 20%;
+  white-space: initial;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 100;
+
+}
+
+.premios {
+
+  width: 100%;
+  margin: 4%;
+  display: flex;
+  align-content: space-between;
+
+}
+
+.premios img {
+
+  width: 300px;
+
+}
+
+.premios p {
+
+  margin: 0;
+  float: none;
+  width: 25%;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+.premios span {
+
+  font-weight: 100;
+  display: block;
+
+}

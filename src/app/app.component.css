@@ -1,3 +1,17 @@
+.assinatura {
+
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+
+}
+
+.assinatura img {
+
+  width: 100px;
+
+}
+
 .container {
 
   scroll-snap-type: x mandatory;
@@ -24,23 +38,33 @@
   background-image: url('../assets/01.jpg');
 
 }
+
 .two {
 
   background-image: url('../assets/02.jpg');
 
 }
+
 .three {
 
   background-image: url('../assets/03.jpg');
 
 }
+
 .four {
 
   background-image: url('../assets/04.jpg');
 
 }
+
 .five {
 
   background-image: url('../assets/05.jpg');
+
+}
+
+.six {
+
+  background-image: url('../assets/01.jpg');
 
 }
