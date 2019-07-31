@@ -95,3 +95,174 @@
   margin: 20px 0 0 0;
 
 }
+
+@media (max-width: 767px) {
+
+  .jobs-info h1 {
+
+    font-size: 24px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 10% auto 4%;
+    float: none;
+
+  }
+
+  .jobs-info h1 > span {
+
+    display: inline;
+
+  }
+
+  .jobs-info ul {
+
+    display: block;
+    overflow: hidden;
+
+  }
+
+  .jobs-info li {
+
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 10px;
+    overflow: hidden;
+
+  }
+
+  .jobs-info li > img {
+
+    max-width: 45%;
+    margin: 0 10px 0 0;
+    float: left;
+
+  }
+
+  .jobs-info li > span {
+
+    display: none;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .jobs-info h1 {
+
+    font-size: 35px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 4% auto 2%;
+    float: none;
+
+  }
+
+  .jobs-info ul {
+
+    display: block;
+    overflow: hidden;
+
+  }
+
+  .jobs-info li {
+
+    width: 46%;
+    float: left;
+    padding: 20px;
+
+  }
+
+  .jobs-info li > span {
+
+    display: none;
+
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+  .jobs-info h1 {
+
+    font-size: 35px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 4% auto 2%;
+    float: none;
+
+  }
+
+  .jobs-info ul {
+
+    display: block;
+    overflow: hidden;
+
+  }
+
+  .jobs-info li {
+
+    width: 46%;
+    float: left;
+    padding: 20px;
+
+  }
+
+  .jobs-info li > span {
+
+    display: none;
+
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  .jobs-info h1 {
+
+    font-size: 60px;
+    width: 30%;
+
+  }
+
+  .jobs-info ul {
+
+    display: block;
+    overflow: hidden;
+
+  }
+
+  .jobs-info li {
+
+    width: 45%;
+    float: left;
+    padding: 20px;
+
+  }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1619px) {
+
+  .jobs-info h1 {
+
+    font-size: 70px;
+    width: 30%;
+
+  }
+
+}
+
+@media (min-width: 1620px) and (max-width: 1919px){
+
+  .jobs-info h1 {
+
+    font-size: 80px;
+    width: 30%;
+
+  }
+
+}

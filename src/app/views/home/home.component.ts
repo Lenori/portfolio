@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
 
   titulo = 'Olá! Meu nome é';
   destaque = 'Leo Lenori.';
-  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue odio ut nibh porta, sed dictum ipsum maximus. Mauris consectetur orci sit amet urna semper, quis pellentesque erat malesuada. Cras eget orci non neque consequat blandit. Nunc ut erat vel erat hendrerit scelerisque. Morbi sodales pellentesque dui eu venenatis.';
+  text = 'Sou um diretor de arte (e criação!) que escreve sobre cinema, pilota aviões e desenvolve em PHP (e Angular, React, bla bla bla). Já assinei peças importantes e legais para o MPF, a 99 POP e o Aeroporto de Brasília. O show em Paris que eu fiz a direção visual conta como experiência internacional? Acho que sim.';
 
   constructor() { }
 

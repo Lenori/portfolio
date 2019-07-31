@@ -29,8 +29,7 @@ export class AppComponent implements OnInit {
 
   showInfos(id) {
 
-    const elem = document.getElementById('container-0' + id);
-    window.setTimeout(() => { elem.classList.toggle('is-visible'); }, 200);
+    document.getElementById('container-0' + id).classList.toggle('is-visible');
 
   }
 

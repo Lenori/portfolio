@@ -68,3 +68,168 @@
   display: block;
 
 }
+
+@media (max-width: 767px) {
+
+  .prizes-info h1 {
+
+    font-size: 30px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 10% auto 4%;
+    float: none;
+
+  }
+
+  .prizes-info p {
+
+    width: 90%;
+    text-align: center;
+    margin: 4% auto;
+    float: none;
+
+  }
+
+  .premios {
+
+    display: block;
+    align-content: normal;
+    text-align: center;
+
+  }
+
+  .premios img {
+
+    width: 150px;
+    margin: 15px auto;
+
+  }
+
+  .premios p {
+
+    font-size: 15px;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .prizes-info h1 {
+
+    font-size: 50px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 10% auto 4%;
+    float: none;
+
+  }
+
+  .prizes-info p {
+
+    width: 90%;
+    text-align: center;
+    margin: 4% auto;
+    float: none;
+
+  }
+
+  .premios {
+
+    display: block;
+    align-content: normal;
+    text-align: center;
+
+  }
+
+  .premios img {
+
+    width: 300px;
+    margin: 15px auto;
+
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+  .prizes-info h1 {
+
+    font-size: 50px;
+    width: 40%;
+    margin: 10% auto 4%;
+    float: none;
+
+  }
+
+  .prizes-info p {
+
+    width: 40%;
+    margin: 4% auto;
+    float: none;
+
+  }
+
+  .premios {
+
+    display: block;
+    align-content: normal;
+    text-align: center;
+
+  }
+
+  .premios img {
+
+    width: 300px;
+    margin: 15px auto;
+
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  .prizes-info h1 {
+
+    font-size: 60px;
+    width: 30%;
+
+  }
+
+  .prizes-info p {
+
+    width: 40%;
+
+  }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1619px) {
+
+  .prizes-info h1 {
+
+    font-size: 70px;
+    width: 30%;
+
+  }
+
+  .prizes-info p {
+
+    width: 40%;
+
+  }
+
+}
+
+@media (min-width: 1620px) and (max-width: 1919px){
+
+  .prizes-info h1 {
+
+    font-size: 80px;
+    width: 30%;
+
+  }
+
+}

@@ -9,7 +9,7 @@ export class ContatoComponent implements OnInit {
 
   titulo = 'Agora me';
   destaque = 'contrate!';
-  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue odio ut nibh porta, sed dictum ipsum maximus. Mauris consectetur orci sit amet urna semper, quis pellentesque erat malesuada. Cras eget orci non neque consequat blandit. Nunc ut erat vel erat hendrerit scelerisque. Morbi sodales pellentesque dui eu venenatis.';
+  text = 'Já está convencido que sou a pessoa certa para o seu projeto? Bom! Agora pode vir falar comigo. Fique à vontade para mandar um e-email sem compromisso algum, ou uma DM no Instagram se você quiser um papo mais direto. Se quiser, pode fazer o download do meu CV para mostrar pro seu gerente de projetos e convencer ele também!';
 
   itens = [
 

@@ -66,6 +66,21 @@ a, a:visited, a:hover {
 }
 
 .is-visible {
+
   visibility: visible;
   opacity: 1;
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .animated-info {
+
+    visibility: visible;
+    opacity: 1;
+
+  }
+
 }

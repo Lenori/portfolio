@@ -9,7 +9,7 @@ export class XpComponent implements OnInit {
 
   titulo = 'E onde eu já';
   destaque = 'trabalhei?';
-  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue odio ut nibh porta, sed dictum ipsum maximus. Mauris consectetur orci sit amet urna semper, quis pellentesque erat malesuada. Cras eget orci non neque consequat blandit. Nunc ut erat vel erat hendrerit scelerisque. Morbi sodales pellentesque dui eu venenatis.';
+  text = 'Tenho uma vasta experiência em empresas de vários tamanhos e especialidades. Claro que nessa tela eu resumi para mostrar as empresas mais importantes, mas nesses vários anos de mercado eu adquiri experiência e expertise em várias áreas que podem contribuir para seu projeto. Será que a sua empresa é a próxima a aparecer aqui?';
 
   itens = [
 
@@ -19,7 +19,7 @@ export class XpComponent implements OnInit {
     {id: 4, empresa: 'AFREI Agência Criativa', cargo: 'Diretor de Arte'},
     {id: 5, empresa: 'Vento Bravo', cargo: 'Diretor de Arte'},
     {id: 6, empresa: 'Agência Galo Canta', cargo: 'Diretor de Arte'},
-    {id: 7, empresa: 'LinkBiz Agência Digital', cargo: 'Diretor de Arte'}
+    {id: 7, empresa: 'LinkBiz Agência Digital', cargo: 'Analista de Marketing Digital'}
 
   ];
 

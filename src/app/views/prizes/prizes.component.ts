@@ -9,7 +9,7 @@ export class PrizesComponent implements OnInit {
 
   titulo = 'E o que eu já';
   destaque = 'ganhei?';
-  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue odio ut nibh porta, sed dictum ipsum maximus. Mauris consectetur orci sit amet urna semper, quis pellentesque erat malesuada. Cras eget orci non neque consequat blandit. Nunc ut erat vel erat hendrerit scelerisque. Morbi sodales pellentesque dui eu venenatis.';
+  text = 'E depois de anos de experiência fazendo esses trabalhos incríveis que você acabou de ver, finalmente fui reconhecido e é óbvio que vou mostrar aqui para você, futuro empregador. Foram alguns prêmios coletivos, individuais e prêmios que infelizmente não ganhei... Mas relaxa, não fico chorando de noite pensando neles (não mais).';
 
   itens = [
 

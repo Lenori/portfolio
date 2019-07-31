@@ -9,7 +9,7 @@ export class EduComponent implements OnInit {
 
   titulo = 'E o que eu já';
   destaque = 'estudei?';
-  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue odio ut nibh porta, sed dictum ipsum maximus. Mauris consectetur orci sit amet urna semper, quis pellentesque erat malesuada. Cras eget orci non neque consequat blandit. Nunc ut erat vel erat hendrerit scelerisque. Morbi sodales pellentesque dui eu venenatis.';
+  text = 'Sou formado em propaganda, e já fiz vários outros cursos e workshops à parte. E também sou muito acostumado a aprender coisas sozinho, tais quais inglês, francês (oui oui) e metereologia (sou eclético). Me adapto fácil a novos conteúdos, e tenho capacidade de aprender qualquer coisa que seja necessária para fazer o seu job.';
 
   itens = [
 
