@@ -9,7 +9,7 @@ export class XpComponent implements OnInit {
 
   titulo = 'E onde eu já';
   destaque = 'trabalhei?';
-  text = 'Tenho uma vasta experiência em empresas de vários tamanhos e especialidades. Claro que nessa tela eu resumi para mostrar as empresas mais importantes, mas nesses vários anos de mercado eu adquiri experiência e expertise em várias áreas que podem contribuir para seu projeto. Será que a sua empresa é a próxima a aparecer aqui?';
+  text = 'Em empresas de vários tamanhos e especialidades. Aqui eu resumi para mostrar as mais importantes, mas nesses anos de mercado eu adquiri experiência e expertise em áreas que podem contribuir para seu projeto. Será que a sua empresa é a próxima a aparecer aqui?';
 
   itens = [
 

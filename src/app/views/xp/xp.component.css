@@ -88,7 +88,7 @@
 
   .xp-info h1 {
 
-    font-size: 30px;
+    font-size: 20px;
     width: 90%;
     height: auto;
     text-align: center;
@@ -97,11 +97,19 @@
 
   }
 
+  .xp-info h1 > span {
+
+    display: inline;
+
+  }
+
   .xp-info p {
 
     width: 90%;
     text-align: center;
-    margin: 4% auto 6%;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 4% auto 0;
     float: none;
 
   }
@@ -119,8 +127,9 @@
 
   .xp-info li {
 
-    margin: 10px auto 14px;
+    margin: 10px auto 0;
     display: block;
+    font-size: 10px;
     float: none;
     width: 80%;
     line-height: 6px;

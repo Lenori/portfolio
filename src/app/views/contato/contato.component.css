@@ -68,7 +68,7 @@
 
   .contato-info h1 {
 
-    font-size: 30px;
+    font-size: 20px;
     width: 90%;
     height: auto;
     text-align: center;
@@ -77,10 +77,18 @@
 
   }
 
+  .contato-info h1 > span {
+
+    display: inline;
+
+  }
+
   .contato-info p {
 
     width: 90%;
     text-align: center;
+    font-size: 14px;
+    line-height: 24px;
     margin: 4% auto;
     float: none;
 
@@ -91,14 +99,20 @@
     width: 100%;
     text-align: center;
     padding: 0;
-    margin: 0;
     margin: 20px auto;
 
   }
 
   .contato-info li {
 
+    margin-bottom: 16px;
+    font-size: 20px;
 
+  }
+
+  .contato-info li > i {
+
+    font-size: 35px;
 
   }
 

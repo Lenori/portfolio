@@ -125,7 +125,7 @@
   .jobs-info li {
 
     width: 100%;
-    padding: 20px;
+    padding: 3px;
     margin: 0 0 10px;
     overflow: hidden;
 
@@ -136,6 +136,13 @@
     max-width: 45%;
     margin: 0 10px 0 0;
     float: left;
+
+  }
+
+  .jobs-info li > h4 {
+
+    font-size: 12px;
+    margin-top: 5px;
 
   }
 

@@ -73,7 +73,7 @@
 
   .prizes-info h1 {
 
-    font-size: 30px;
+    font-size: 20px;
     width: 90%;
     height: auto;
     text-align: center;
@@ -82,11 +82,19 @@
 
   }
 
+  .prizes-info h1 > span {
+
+    display: inline;
+
+  }
+
   .prizes-info p {
 
     width: 90%;
     text-align: center;
-    margin: 4% auto;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 4% auto 0;
     float: none;
 
   }
@@ -96,19 +104,21 @@
     display: block;
     align-content: normal;
     text-align: center;
+    margin: auto;
 
   }
 
   .premios img {
 
-    width: 150px;
+    width: 100px;
     margin: 15px auto;
 
   }
 
   .premios p {
 
-    font-size: 15px;
+    font-size: 12px;
+    margin: 0 auto;
 
   }
 

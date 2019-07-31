@@ -68,7 +68,7 @@
 
   .edu-info h1 {
 
-    font-size: 30px;
+    font-size: 20px;
     width: 90%;
     height: auto;
     text-align: center;
@@ -77,12 +77,20 @@
 
   }
 
+  .edu-info h1 > span {
+
+    display: inline;
+
+  }
+
   .edu-info p {
 
     width: 90%;
     text-align: center;
-    margin: 4% auto 6%;
+    margin: 4% auto 3%;
     float: none;
+    font-size: 14px;
+    line-height: 24px;
 
   }
 
@@ -98,7 +106,8 @@
 
   .edu-info li {
 
-    margin-bottom: 22px;
+    margin-bottom: 10px;
+    font-size: 10px;
 
   }
 
