@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    const url = window.location.href.split('/');
+    const url = window.location.href.split('?');
     this.lang = url.pop();
 
     this.showInfos(this.animatedId);
