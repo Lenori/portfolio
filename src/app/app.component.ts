@@ -13,6 +13,8 @@ export class AppComponent implements OnInit {
   animatedId = 1;
   sections: any;
 
+  lang = '';
+
   mouseWheelUpFunc() {
     document.getElementById('container').scrollBy(-1900, 0);
     this.hideInfos(this.animatedId);
@@ -40,6 +42,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    const url = window.location.href.split('/');
+    this.lang = url.pop();
 
     this.showInfos(this.animatedId);
     this.sections = document.querySelectorAll('#container .sections').length;
