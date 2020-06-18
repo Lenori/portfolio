@@ -24,17 +24,17 @@ class Portfolio extends Component {
     }
 
     changeImage(mode) {
-        if (mode == 'add') {
+        if (mode === 'add') {
             if (this.state.image < this.state.images.length - 1)
                 this.setState(prevState => {
                     return {image: prevState.image + 1}
                 })
-            else if (this.state.image == this.state.images.length - 1)
+            else if (this.state.image === this.state.images.length - 1)
                 this.setState({image: 0})
         }
 
-        if (mode == 'sub') {
-            if (this.state.image == 0)
+        if (mode === 'sub') {
+            if (this.state.image === 0)
                 this.setState({image: this.state.images.length - 1})
             else
                 this.setState(prevState => {
