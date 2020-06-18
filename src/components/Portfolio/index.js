@@ -3,13 +3,13 @@ import {FaChevronRight, FaChevronLeft} from 'react-icons/fa'
 
 import {Content, Header, Controls, Item} from './styles';
 
-import novenove from '../../assets/99.png';
+import novenove from '../../assets/99.jpg';
 import bonelle from '../../assets/bonelle.jpg';
-import journal from '../../assets/journal.png';
-import realestate from '../../assets/realestate.png';
-import saedus from '../../assets/saedus.png';
-import starvai from '../../assets/starvai.png';
-import uarehome from '../../assets/uarehome.png';
+import journal from '../../assets/journal.jpg';
+import realestate from '../../assets/realestate.jpg';
+import saedus from '../../assets/saedus.jpg';
+import starvai from '../../assets/starvai.jpg';
+import uarehome from '../../assets/uarehome.jpg';
 
 class Portfolio extends Component {
     constructor() {
