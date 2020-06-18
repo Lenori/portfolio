@@ -2,7 +2,12 @@ import {createGlobalStyle} from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    :root {
+        --primary: #346ce0;
+        --secondary: #9e9e9e;
+        --tertiary: #f5f5f5;
+    }
 
     * {
         margin: 0;
@@ -12,7 +17,7 @@ export default createGlobalStyle`
     }
 
     *:focus {
-        outiline: 0;
+        outline: 0;
     }
 
     html, body, #root {
@@ -23,8 +28,10 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
 
-    body, input, button {
-        font: 14px 'Roboto', sans-serif;
+    html, body, #root, input, button, h1 {
+        font-family: 'Bree serif', serif;
+        font-weight: lighter !important;
+        font-size: 20px;
     }
 
     a {
